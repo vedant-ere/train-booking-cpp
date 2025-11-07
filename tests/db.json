@@ -1,0 +1,58 @@
+[
+    {
+        "destination": "Delhi",
+        "name": "Express Train",
+        "seats": [],
+        "source": "Mumbai",
+        "time": 1762533814,
+        "vehicleId": "V001"
+    },
+    {
+        "destination": "Bangalore",
+        "name": "Superfast Train",
+        "seats": [
+            [
+                {
+                    "aadharCard": "9876-5432-1098",
+                    "name": "Jane Smith",
+                    "userId": "U002"
+                }
+            ]
+        ],
+        "source": "Delhi",
+        "time": 1762533814,
+        "vehicleId": "V002"
+    },
+    {
+        "destination": "Bangalore",
+        "name": "Superfast Train",
+        "seats": [
+            [
+                {
+                    "aadharCard": "5555-6666-7777",
+                    "name": "Bob Johnson",
+                    "userId": "U003"
+                }
+            ]
+        ],
+        "source": "Delhi",
+        "time": 1762533814,
+        "vehicleId": "V002"
+    },
+    {
+        "destination": "Kolkata",
+        "name": "Rajdhani Express",
+        "seats": [
+            [
+                {
+                    "aadharCard": "1111-2222-3333",
+                    "name": "Alice Brown",
+                    "userId": "U004"
+                }
+            ]
+        ],
+        "source": "Chennai",
+        "time": 1762533814,
+        "trainId": "T001"
+    }
+]
