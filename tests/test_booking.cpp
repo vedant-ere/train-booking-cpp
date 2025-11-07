@@ -128,9 +128,9 @@ void test_invalid_lookup() {
 }
 
 int main() {
-    cout << "======================================" << endl;
+    
     cout << "  TRAIN BOOKING SYSTEM - TEST SUITE  " << endl;
-    cout << "======================================" << endl;
+    
 
     try {
         test_book_vehicle();
@@ -142,9 +142,9 @@ int main() {
         test_train_booking();
         test_invalid_lookup();
 
-        cout << "\n======================================" << endl;
-        cout << "  ALL TESTS PASSED! ✓" << endl;
-        cout << "======================================\n" << endl;
+        
+        cout << "  ALL TESTS PASSED! " << endl;
+        
 
     } catch (const exception& e) {
         cout << "\n[FAIL] Test failed with error: " << e.what() << endl;
