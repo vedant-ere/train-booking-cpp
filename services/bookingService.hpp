@@ -20,6 +20,16 @@ class BookingService {
             FileIO<T> file;
             file.saveToFile(entity);
         }
+
+        vector<T> getAllBookings() {
+            FileIO<T> file;
+            return file.readFromFile();
+        }
+
+        void updateAllBookings(vector<T> entities) {
+            FileIO<T> file;
+            file.updateFile(entities);
+        }
 };
 
 // Template specializations for Vehicle
